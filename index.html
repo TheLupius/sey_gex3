@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang="ru">
+<head>
+    <meta charset="utf-8">
+    <title>Лабораторная работа №3</title>
+</head>
+<body>
+    <header>
+        <h1>Новости дня</h1>
+    </header>
+
+    <nav>
+        <a href="#main-content">Перейти к контенту</a>
+    </nav>
+
+    <main id="main-content">
+        <section>
+            <article>
+                <h2>Событие дня</h2>
+                <p>Краткое описание события с мультимедиа.</p>
+
+                <!-- Видео -->
+                <video controls width="400">
+                    <source src="sample.mp4" type="video/mp4">
+                    Ваш браузер не поддерживает видео.
+                </video>
+
+                <!-- Аудио -->
+                <audio controls>
+                    <source src="sample.mp3" type="audio/mpeg">
+                    Ваш браузер не поддерживает аудио.
+                </audio>
+
+                <!-- Подписи к видео (опционально) -->
+                <track src="sample.vtt" kind="subtitles" srclang="ru" label="Русские субтитры">
+            </article>
+
+            <aside>
+                <h3>Дополнительная информация</h3>
+                <p>Ссылки и заметки по теме.</p>
+            </aside>
+        </section>
+    </main>
+
+    <footer>
+        <small>© Ким Дмитрий</small>
+    </footer>
+</body>
+</html>
